@@ -75,7 +75,7 @@ local function handleCommand(command)
   elseif command == "Flappy Bird" then
     message("Starting Flappy Bird...")
     os.sleep(2)
-    shell.execute("FlappyBird.lua")
+    shell.execute("Flappy.lua")
   elseif command == "Snake" then
     message("Starting Snake...")
     os.sleep(2)
